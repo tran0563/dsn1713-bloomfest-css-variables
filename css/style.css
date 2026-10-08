@@ -119,9 +119,8 @@ h1, h2, h3,
    overriding the correct --bs- variables. */
 
 .navbar {
-   --bs-navbar-color: var(--bf-white);
-   --bs-navbar-hover-color: var(--bf-pink);
-   --bs-navbar-active-color: var(--bf-pink);
+   --bs-navbar-hover-color: var(--bf-white);
+   --bs-navbar-active-color: var(--bf-lime);
 }
 
 
@@ -133,14 +132,12 @@ h1, h2, h3,
 .btn-primary {
    --bs-btn-bg: var(--bf-pink);
    --bs-btn-border-color: var(--bf-pink);
-   --bs-btn-color: var(--bf-black);
    
-   --bs-btn-hover-color: var(--bf-black);
-   --bs-btn-hover-bg: var(--bf-lime);
-   --bs-btn-hover-border-color: var(--bf-black);
+   --bs-btn-hover-bg: var(--bf-pink-dark);
+   --bs-btn-hover-border-color: var(--bf-pink-dark);
    
-   --bs-btn-active-bg: var(--bf-black);
-   --bs-btn-active-border-color: var(--bf-lime);
+   --bs-btn-active-bg: var(--bf-pink-dark);
+   --bs-btn-active-border-color: var(--bf-pink-dark);
 }
 
 
@@ -150,14 +147,14 @@ h1, h2, h3,
 .btn-warning {
    --bs-btn-bg: var(--bf-orange);
    --bs-btn-border-color: var(--bf-orange);
-   --bs-btn-color: var(--bf-black);
+   --bs-btn-color: var(--bf-white);
    
-   --bs-btn-hover-color: var(--bf-black);
-   --bs-btn-hover-bg: var(--bf-white);
-   --bs-btn-hover-border-color: var(--bf-white);
+   --bs-btn-hover-color: var(--bf-orange-white);
+   --bs-btn-hover-bg: var(--bf-orange-dark);
+   --bs-btn-hover-border-color: var(--bf-orange-dark);
    
    --bs-btn-active-color: var(--bf-white);
-   --bs-btn-active-bg: var(--bf-black);
+   --bs-btn-active-bg: var(--bf-orange-dark);
    --bs-btn-active-border-color: var(--bf-orange-dark);
 }
 
@@ -194,5 +191,5 @@ h1, h2, h3,
 
 .form-control:focus {
    border-color: var(--bf-lime);
-   box-shadow: var(--bf-lime);
+   box-shadow: 0 0 0 0.25rem rgba(var(--bf-lime-rgb), 0.25)
 }
